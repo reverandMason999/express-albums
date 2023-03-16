@@ -33,7 +33,7 @@ module.exports = [{
 {
     name:'Product Of My Enviornment',
     publishDate: '2021',
-    image: '/images/product-of-my-enviornment',
+    image: '/images/product-of-my-enviornment.jpg',
     songTitles: ['Product Of My Enviroment', 'Trials and Tribulations', 'Silence The Narc', 'Paranoid Sleeping', 'Embedded in Your Mind'],
     duration: '8:46',
     score: 9

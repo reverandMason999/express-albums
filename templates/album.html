@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albums</title>
+</head>
+<body>
+    <div>
+        <h1>${name}</h1>
+        <h2>This album came out in ${publishDate}</h2>
+        <image src=${image}>
+        <ul>
+            ${songTitles.map((songTitles) =>
+                `<li>${songTitles}</li>`).join('')}
+        </ul>
+        <h3>The length of this album is ${duration}</h3>
+        <h4>I decided to give this album a score of ${score}</h4>
+        <a href="/top-albums">The Greats</a>
+        <a href="/">Home</a>
+      </div>
+</body>
+</html>
