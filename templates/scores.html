@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranked Albums</title>
+</head>
+<body>
+    <div>
+    <h1>Great Grind Ranked</h1>
+    <ol>
+        ${db.filter((db) => db.score > 5).map((db) => `<li>${db.name}: ${db.score}</li>`).join('')}
+     </ol>
+        <a href="/">Home</a>
+    </div>
+    
+</body>
+</html>
